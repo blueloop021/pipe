@@ -111,7 +111,7 @@ check_health() {
 # ----------------------------
 check_logs() {
     echo -e "${LOGS} Showing last 100 lines of Pipe Node logs...${RESET}"
-    journalctl -u pipe -n 100
+    journalctl -u pipe -n 30
     read -p "Press Enter to return to the main menu."
 }
 
