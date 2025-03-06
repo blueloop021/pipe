@@ -81,7 +81,7 @@ ExecStart=${curr_dir}/pop \\
     --max-disk ${max_disk} \\
     --cache-dir ${curr_dir}/download_cache \\
     --pubKey ${soladdress} \\
-    --signup-by-referral-route e70d24f2d1553964
+    # --signup-by-referral-route e70d24f2d1553964
 Restart=always
 RestartSec=5
 LimitNOFILE=65536
