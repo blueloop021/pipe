@@ -167,7 +167,7 @@ stop_node() {
 display_ascii() {
     clear
     echo -e "    ${MAGENTA}🚀 Follow us on Telegram: https://t.me/mrbluepoint${RESET}"
-    echo -e "    ${MAGENTA}📢 Follow us on Twitter: https://x.com/bluepoint021${RESET}"
+    echo -e "    ${MAGENTA}📢 Follow us on Twitter: https://x.com/bluepoint_021${RESET}"
     echo -e "    ${GREEN}Welcome to the Pipe Network Node Management System!${RESET}"
     echo -e ""
 }
