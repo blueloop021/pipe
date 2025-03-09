@@ -58,7 +58,7 @@ install_pipe_node() {
     wget -O pop "https://dl.pipecdn.app/v0.2.8/pop"
     chmod +x pop
 
-    sudo ./pop  --ram ${ram}   --max-disk ${max_disk}  --cache-dir ${curr_dir}/download_cache --pubKey ${soladdress} --signup-by-referral-route e70d24f2d1553964
+    sudo ./pop  --ram ${ram}   --max-disk ${max_disk}  --cache-dir ${curr_dir}/download_cache --pubKey ${soladdress} --signup-by-referral-route be559d266244297e
 
     # Create systemd service file for Pipe Node
     sudo tee /etc/systemd/system/pipe.service > /dev/null << EOF
@@ -171,8 +171,8 @@ display_ascii() {
     echo -e "    ${BLUE}  / / / / ,<     /  |/ / / / / / / / __/  \\__ \\ ${RESET}"
     echo -e "    ${YELLOW} / /_/ / /| |   / /|  / /_/ / /_/ / /___ ___/ / ${RESET}"
     echo -e "    ${MAGENTA}/_____/_/ |_|  /_/ |_/\____/_____/_____//____/  ${RESET}"
-    echo -e "    ${MAGENTA}🚀 Follow us on Telegram: https://t.me/dknodes${RESET}"
-    echo -e "    ${MAGENTA}📢 Follow us on Twitter: https://x.com/dknodes${RESET}"
+    echo -e "    ${MAGENTA}🚀 Follow us on Telegram: https://t.me/mrbluepoint${RESET}"
+    echo -e "    ${MAGENTA}📢 Follow us on Twitter: https://x.com/bluepoint021${RESET}"
     echo -e "    ${GREEN}Welcome to the Pipe Network Node Management System!${RESET}"
     echo -e ""
 }
