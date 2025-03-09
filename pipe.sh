@@ -166,11 +166,6 @@ stop_node() {
 # ----------------------------
 display_ascii() {
     clear
-    echo -e "    ${RED}    ____  __ __    _   ______  ____  ___________${RESET}"
-    echo -e "    ${GREEN}   / __ \\/ //_/   / | / / __ \\/ __ \\/ ____/ ___/${RESET}"
-    echo -e "    ${BLUE}  / / / / ,<     /  |/ / / / / / / / __/  \\__ \\ ${RESET}"
-    echo -e "    ${YELLOW} / /_/ / /| |   / /|  / /_/ / /_/ / /___ ___/ / ${RESET}"
-    echo -e "    ${MAGENTA}/_____/_/ |_|  /_/ |_/\____/_____/_____//____/  ${RESET}"
     echo -e "    ${MAGENTA}🚀 Follow us on Telegram: https://t.me/mrbluepoint${RESET}"
     echo -e "    ${MAGENTA}📢 Follow us on Twitter: https://x.com/bluepoint021${RESET}"
     echo -e "    ${GREEN}Welcome to the Pipe Network Node Management System!${RESET}"
